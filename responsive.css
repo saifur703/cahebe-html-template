@@ -1,0 +1,130 @@
+/*	Medium Layout: 1280px	*/
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.welcome-area h1 {
+		font-size: 60px;
+	}
+
+	.welcome-area h3 span {
+		font-size: 18px;
+		padding: 5px;
+	}
+
+	.middle-title {
+		font-size: 24px;
+	}
+}
+
+
+
+/*		Tablet Layout: 768px.       */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.column {
+		width: 750px;
+	}
+
+}
+
+
+
+
+/*		Tablet and Mobile Layout         */
+@media only screen and (max-width: 991px) {
+	.welcome-area h1 {
+		font-size: 30px;
+	}
+
+	.welcome-area h3 span {
+		font-size: 10px;
+		padding: 5px;
+	}
+
+	.welcome-area h3 {
+		font-size: 18px;
+	}
+
+	.welcome-area {
+		padding: 15px;
+	}
+
+	.welcome-area .logo {
+		max-width: 70px;
+	}
+
+	.welcome-area .col-md-6,
+	.welcome-area .col-md-2 {
+		width: auto;
+	}
+
+	.middle-title,
+	span.f_icon {
+		font-size: 14px;
+	}
+
+	.mb-5,
+	.my-5 {
+		margin: 0 !important;
+	}
+
+	body {
+		font-size: 14px;
+	}
+
+	.section-padding {
+		padding: 30px 15px;
+	}
+
+	.footer-area h4 {
+		margin-bottom: 20px;
+	}
+
+	.third-area h4 {
+		margin-bottom: 20px;
+	}
+
+	.single-feature {
+		width: 300px;
+		margin: auto;
+	}
+
+	.feature-slider .owl-nav div {
+		left: 0;
+	}
+
+	.feature-slider .owl-nav .owl-next {
+		right: 0;
+	}
+}
+
+
+/*		Mobile Layout: 320px.         */
+
+@media only screen and (max-width: 767px) {}
+
+
+
+/*		Wide Mobile Layout: 480px.        */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	.column {
+		width: 450px;
+	}
+
+}
+
+
+
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+
+	body {}
+
+}
