@@ -53,10 +53,6 @@ body {
     font-size: 24px;
 }
 
-.logo {
-    margin-top: 20px;
-}
-
 .middle-title {
     font-size: 28px;
     color: #fff;
@@ -159,10 +155,15 @@ span.f_icon {
     top: 50%;
     width: 40px;
     height: 40px;
-    border: 2px solid #333;
+    border: 3px solid #333;
     text-align: center;
-    line-height: 40px;
+    line-height: 36px;
     border-radius: 50px;
+}
+
+.feature-slider .owl-nav div i {
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .feature-slider .owl-nav .owl-next {
@@ -187,9 +188,22 @@ span.f_icon {
     border: 4px solid #333;
 }
 
+
 .form-box textarea {
     min-height: 200px;
     padding: 20px 10px;
+}
+
+.form-box input[type=submit] {
+    width: auto;
+    padding: 8px 30px;
+    font-weight: 700;
+    background-color: #ddd;
+}
+
+.form-box input[type=submit]:hover {
+    background-color: #f7234b;
+    color: #fff;
 }
 
 .height15 {
@@ -198,4 +212,58 @@ span.f_icon {
 
 .welcome-video {
     text-align: center;
+}
+
+.max-width-area {
+    max-width: 550px;
+}
+
+
+.welcome-area,
+.second-area,
+.third-area,
+.footer-area {
+    position: relative;
+    z-index: 1;
+}
+
+.welcome-area {
+    z-index: 2;
+}
+
+.welcome-area::after,
+.second-area::after,
+.third-area::after,
+.footer-area::after {
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: -1;
+}
+
+.welcome-area::after {
+    background: url("assets/img/shape1.png") no-repeat scroll center bottom / 100%;
+}
+
+.second-area::after {
+    background: url("assets/img/shape2.png") no-repeat scroll center center / 100%;
+}
+
+
+.third-area::after {
+    background: url("assets/img/shape3.png") no-repeat scroll top center;
+    background-size: contain;
+    bottom: -25%;
+    height: calc(100% + 25%);
+}
+
+.footer-area::after {
+    background: url("assets/img/shape4.png") no-repeat scroll bottom center / 100%;
+}
+
+.footer-area {
+    overflow: hidden;
 }
