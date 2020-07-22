@@ -4,7 +4,7 @@ Updated: 21 July, 2020
 Notes: Hand Coded for Fiverr
 ===================================*/
 body {
-    background: url("assets/img/body-bg.jpg") no-repeat scroll 0 0 / 100%;
+    background: url('assets/img/body-bg.jpg') no-repeat scroll 0 0 / 100%;
     padding: 15px 0;
     background-color: #7e68ab;
 }
@@ -53,6 +53,10 @@ body {
     font-size: 24px;
 }
 
+.logo {
+    margin-top: 20px;
+}
+
 .middle-title {
     font-size: 28px;
     color: #fff;
@@ -79,6 +83,7 @@ span.f_icon {
 .welcome-bottom h3 {
     font-weight: 900;
     text-transform: uppercase;
+    font-size: 18px;
 }
 
 .second-area {
@@ -189,4 +194,8 @@ span.f_icon {
 
 .height15 {
     height: 15px;
+}
+
+.welcome-video {
+    text-align: center;
 }
