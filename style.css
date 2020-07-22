@@ -137,6 +137,8 @@ span.f_icon {
 
 .third-area {
     background-color: #f7234b;
+    overflow: hidden;
+
 }
 
 .third-area h4 {
