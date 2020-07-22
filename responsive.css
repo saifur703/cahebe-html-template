@@ -108,7 +108,21 @@
 
 /*		Mobile Layout: 320px.         */
 
-@media only screen and (max-width: 767px) {}
+@media only screen and (max-width: 767px) {
+	.welcome-area h1 {
+		font-size: 17px;
+	}
+
+	.welcome-area h3 span {
+		font-size: 5px;
+		padding: 3px;
+		margin-right: 5px;
+	}
+
+	.welcome-area .logo {
+		max-width: 40px;
+	}
+}
 
 
 
