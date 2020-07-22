@@ -137,7 +137,6 @@ span.f_icon {
 
 .third-area {
     background-color: #f7234b;
-    overflow: hidden;
 
 }
 
@@ -151,10 +150,16 @@ span.f_icon {
     border: 3px solid #1d1d1b;
 }
 
+.feature-slider,
+.feature-text {
+    position: relative;
+    z-index: 999;
+}
+
 .feature-slider .owl-nav div {
     position: absolute;
     left: -80px;
-    top: 50%;
+    top: 40%;
     width: 40px;
     height: 40px;
     border: 3px solid #333;
@@ -257,10 +262,18 @@ span.f_icon {
 
 
 .third-area::after {
-    background: url("assets/img/shape3.png") no-repeat scroll top center;
+    background: url("assets/img/shape3.png") no-repeat scroll bottom center;
     background-size: contain;
-    bottom: -25%;
-    height: calc(100% + 25%);
+    bottom: -20%;
+    height: calc(100% + 20%);
+}
+
+.third-area {
+    z-index: 5;
+}
+
+.third-area::after {
+    z-index: 5;
 }
 
 .footer-area::after {
@@ -269,4 +282,12 @@ span.f_icon {
 
 .footer-area {
     overflow: hidden;
+}
+
+.single-feature {
+    padding: 0 40px;
+}
+
+.feature-slider {
+    padding-bottom: 40px;
 }
