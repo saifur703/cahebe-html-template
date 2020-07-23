@@ -126,6 +126,11 @@
 		height: 100%;
 		bottom: 0;
 	}
+
+	.logo img {
+	    max-width: 100px;
+	    margin-top: 0;
+	}
 }
 
 

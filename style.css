@@ -85,6 +85,7 @@ span.f_icon {
 .second-area {
     background: #1deae3;
 }
+.second-area a {color: #333}
 
 .section-padding {
     padding: 100px 0;
@@ -299,5 +300,6 @@ span.f_icon {
 }
 
 .logo img {
-    max-width: 180px;
+    max-width: 140px;
+    margin-top: 15px;
 }
